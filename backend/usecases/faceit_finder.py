@@ -1,6 +1,6 @@
 from decouple import config
 from entities.errors import FaceitError
-from usecases.consts import (
+from backend.entities.consts import (
     FIND_DATA_BY_ID_URL,
     FIND_ID_BY_NAME_URL,
     FIND_STAT_CS2_URL,
