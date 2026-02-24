@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Faceit Insight Test",
+  "version": "1.0",
+  "description": "Мое первое расширение для Faceit",
+  "content_scripts": [
+    {
+      "matches": ["*://*.faceit.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[dependency-groups]
+dev = [
+    "fastapi[standard]>=0.129.0",
+    "mypy>=1.19.1",
+    "python-decouple>=3.8",
+    "requests>=2.32.5",
+    "ruff>=0.15.1",
+]
